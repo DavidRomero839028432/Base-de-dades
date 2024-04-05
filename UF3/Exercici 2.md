@@ -1,4 +1,4 @@
-#Exercici 2
+# Exercici 2
 ```mysql
 DELIMITER //
 create function spPotencia(pBase INT, pExponent INT) returns INT
