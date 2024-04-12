@@ -12,4 +12,4 @@
 - [Exercici 10](https://github.com/dromero4/Base-de-dades/blob/189feff2bbc4595bc71f8aad48c832cf4438c0e7/UF3/Procedures/Exercici%2010.md)
 - [Exercici 11](https://github.com/dromero4/Base-de-dades/blob/b554a24fa15ce4f5016ed92d7949ed02132a7b9b/UF3/Procedures/Exercici%2011.md)
 - [Exercici 12](https://github.com/dromero4/Base-de-dades/blob/e7211b82497768993e3147bee271d62a6b433418/UF3/Procedures/Exercici%2012.md)
-- [Exercici 13](https://github.com/dromero4/Base-de-dades/blob/36c3cd2512610cc6e0bee59feeab4e08839039a1/UF3/Procedures/Exercici%2013.md)
+- [Exercici 13](https://github.com/dromero4/Base-de-dades/blob/36c3cd2512610cc6e0bee59feeab4e08839039a1/UF3/Procedures/Exercici%2013.md) Not finished
