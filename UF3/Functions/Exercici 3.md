@@ -1,19 +1,17 @@
 ```mysql
-DROP FUNCTION IF EXISTS spIncrement;
 DELIMITER //
-CREATE FUNCTION spIncrement(pCodiEmpleat INT, pPercentatge INT) RETURNS FLOAT
+DROP FUNCTION IF EXISTS spIncrement();
+CREATE FUNCTION spIncrement(pEmpleatID INT, pIncrement INT) RETURNS INT
 NOT DETERMINISTIC READS SQL DATA
 BEGIN
-    DECLARE vRetorn FLOAT;
-    DECLARE vSalari FLOAT;
-
-    SET vSalari = (SELECT salari
-                    FROM empleats
-                WHERE empleat_id = pCodiEmpleat);
+	DECLARE vSalari INT;
     
-    SET vRetorn = ((vSalari / 100) * 10) + vSalari;
-    RETURN vRetorn;
-END 
-//
-DELIMITER ;
+    SELECT salari INTO vSalari
+		FROM empleats
+	WHERE empleat_id = pEmpleatID;
+    
+    SET vSalari = ((vSalari * pIncrement) / 100) + vSalari;
+    
+    return vSalari;
+END //
 ```
