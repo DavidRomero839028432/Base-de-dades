@@ -1,16 +1,23 @@
 ```mysql
-DROP FUNCTION IF EXISTS spPringat;
 DELIMITER //
-CREATE FUNCTION spPringat(pCodiDep INT) RETURNS INT
-NOT DETERMINISTIC READS SQL DATA
+DROP FUNCTION IF EXISTS spPringat;
+CREATE FUNCTION spPringat(dept_id INT) RETURNS INT
 BEGIN
-	DECLARE vRetorn INT;
+    DECLARE min_salary INT;
+    DECLARE min_salary_emp_id INT;
 
-	SET vRetorn = (SELECT MIN(salari)
-                  FROM empleats
-              WHERE departament_id = pCodiDep);
+    -- Trobar el salari mínim per al departament
+    SELECT MIN(salari) INTO min_salary
+    FROM empleats
+    WHERE departament_id = dept_id;
 
-	RETURN vRetorn;
-END
-//
+    -- Trobar l'identificador de l'empleat amb el salari mínim
+    SELECT empleat_id INTO min_salary_emp_id
+    FROM empleats
+    WHERE departament_id = dept_id AND salari = min_salary
+    LIMIT 1;
+
+    RETURN min_salary_emp_id;
+END//
+
 ```
