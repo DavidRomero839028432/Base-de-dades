@@ -22,4 +22,5 @@
 - [Exercici 4](https://github.com/dromero4/Base-de-dades/blob/3866d96d232e8f5f1b334d6aa575161e609eed54/UF3/Triggers/Exercici%204.md)
 
 ## Cursors
-- [Extra](https://github.com/dromero4/Base-de-dades/blob/a94ce92f6ba41f05803ab7bbeaa16fbd362c8df1/UF3/Cursors%20/Extra%201)
+- [Extra 1](https://github.com/dromero4/Base-de-dades/blob/a94ce92f6ba41f05803ab7bbeaa16fbd362c8df1/UF3/Cursors%20/Extra%201)
+- [Extra 2](https://github.com/dromero4/Base-de-dades/blob/c18733c2d36dde38c570e592a3175ad14647a5ac/UF3/Cursors%20/Extra%202.md)
