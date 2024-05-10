@@ -8,4 +8,4 @@
 - Cursors
 
 # [UF4](https://github.com/dromero4/Base-de-dades/tree/7051e4da1802865f8b7bd6645277dce2621150b9/UF4)
-- Consultas
+- [Find()](https://github.com/dromero4/Base-de-dades/blob/a3d869d4dfbd7a57f23239ff0739b0aed1a71769/UF4/Exercici%201.md)
