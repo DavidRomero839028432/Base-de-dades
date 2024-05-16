@@ -8,5 +8,5 @@
 - Cursors
 
 # UF4
-- [BD rrhh](https://github.com/dromero4/Base-de-dades/blob/a3d869d4dfbd7a57f23239ff0739b0aed1a71769/UF4/Exercici%201.md)
-- [edx - students]()
+- [rrhh](https://github.com/dromero4/Base-de-dades/blob/b037d8fe9a108f7dc75fa257ce48823c313830b1/UF4/rrhh.md)
+- [edx - students](https://github.com/dromero4/Base-de-dades/blob/b037d8fe9a108f7dc75fa257ce48823c313830b1/UF4/students.md)
