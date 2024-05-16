@@ -80,30 +80,30 @@ db.students.find({$and:[{phone_aux:{$exists:true}},{lastname2:{$exists:false}}]}
 
 #### 17. Busca els estudiants que el seu correu electrònic acabi en .net
 ```js
-db.students.find({$and:[{phone_aux:{$exists:true}},{lastname2:{$exists:false}}]})
+db.students.find({email:{$regex:/net$/}}})
 ```
 
 #### 18. Busca els estudiants que el seu telèfon comenci per 622
 ```js
-db.students.find({$and:[{phone_aux:{$exists:true}},{lastname2:{$exists:false}}]})
+db.students.find({phone:{$regex:/^622/}})
 ```
 
 #### 19. Busca els estudiants que el seu dni comenci i acabi amb una lletra
 ```js
-db.students.find({$and:[{phone_aux:{$exists:true}},{lastname2:{$exists:false}}]})
+db.students.find({dni:{$regex:'^[AEIOU]*[AEIOU]$'}})
 ```
 
 #### 20. Busca els estudiants que el seu nom comenci per una vocal
 ```js
-db.students.find({$and:[{phone_aux:{$exists:true}},{lastname2:{$exists:false}}]})
+db.students.find({name:{$regex:'^[AEIOU]'}})
 ```
 
 #### 21. Busca els estudiants que el seu nom sigui compost
 ```js
-db.students.find({$and:[{phone_aux:{$exists:true}},{lastname2:{$exists:false}}]})
+db.students.find({name: /.*\s.*/})
 ```
 
 #### 22. . Busca els estudiants amb un nom més llarg de 13 caràcters
 ```js
-db.students.find({$and:[{phone_aux:{$exists:true}},{lastname2:{$exists:false}}]})
+db.students.find({$where: "this.name.length > 13"})
 ```
