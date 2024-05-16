@@ -10,3 +10,4 @@
 # UF4
 - [rrhh](https://github.com/dromero4/Base-de-dades/blob/b037d8fe9a108f7dc75fa257ce48823c313830b1/UF4/rrhh.md)
 - [edx - students](https://github.com/dromero4/Base-de-dades/blob/b037d8fe9a108f7dc75fa257ce48823c313830b1/UF4/students.md)
+- [edx - bios](https://github.com/dromero4/Base-de-dades/blob/d53f4cd41ed481b4adacaf0202705a0cdd3ba0ba/UF4/bios.md)
