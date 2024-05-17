@@ -100,7 +100,7 @@ db.students.find({name:{$regex:'^[AEIOU]'}})
 
 #### 21. Busca els estudiants que el seu nom sigui compost
 ```js
-db.students.find({name: /.*\s.*/})
+db.students.find({name: /\w\s\w/})
 ```
 
 #### 22. . Busca els estudiants amb un nom més llarg de 13 caràcters
