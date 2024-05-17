@@ -90,7 +90,7 @@ db.students.find({phone:{$regex:^622}})
 
 #### 19. Busca els estudiants que el seu dni comenci i acabi amb una lletra
 ```js
-db.students.find({dni:{$regex:'^[AEIOU].*[AEIOU]$'}})
+db.students.find({dni:{$regex:'^[AEIOU].+[AEIOU]$'}})
 ```
 
 #### 20. Busca els estudiants que el seu nom comenci per una vocal
