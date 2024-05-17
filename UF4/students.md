@@ -80,17 +80,17 @@ db.students.find({$and:[{phone_aux:{$exists:true}},{lastname2:{$exists:false}}]}
 
 #### 17. Busca els estudiants que el seu correu electrònic acabi en .net
 ```js
-db.students.find({email:{$regex:/net$/}}})
+db.students.find({email:{$regex:\.net$}}})
 ```
 
 #### 18. Busca els estudiants que el seu telèfon comenci per 622
 ```js
-db.students.find({phone:{$regex:/^622/}})
+db.students.find({phone:{$regex:^622}})
 ```
 
 #### 19. Busca els estudiants que el seu dni comenci i acabi amb una lletra
 ```js
-db.students.find({dni:{$regex:'^[AEIOU]*[AEIOU]$'}})
+db.students.find({dni:{$regex:'^[AEIOU].*[AEIOU]$'}})
 ```
 
 #### 20. Busca els estudiants que el seu nom comenci per una vocal
